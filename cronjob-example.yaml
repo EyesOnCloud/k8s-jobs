@@ -11,6 +11,7 @@ spec:
           containers:
           - name: hello
             image: busybox
+            imagePullPolicy: Never
             args:
             - /bin/sh
             - -c
